@@ -20,7 +20,7 @@ If we put CRUD, Express and MySQL together into a single diagram, this is what i
 # Requirements
 Some basic requirements to run this file in system need to install npm package before this install nodejs, using npm install mysql and express library.
 Commands:
-code sudo apt install nodejs code
+'code' sudo apt install nodejs code
 sudo apt install nodejs npm or sudo apt install npm 
 npm init -y
 npm install express
