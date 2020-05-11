@@ -1,6 +1,6 @@
 # Todo_Api
 
-Implemented a Todo Api using ExpressJs and MySQL. Performed CRUD operation in which used POST, PUT, GET and DELETE method of express.
+I1mplemented a Todo Api using ExpressJs and MySQL. Performed CRUD operation in which used POST, PUT, GET and DELETE method of express.
  
 # ExpressJs
 Express is a fast, assertive, essential and moderate web framework of Node.js. You can assume express as a layer built on the top of the NodeJs that helps manage a server and routes. It provides a robust set of features to develop web and mobile applications.
@@ -20,7 +20,7 @@ If we put CRUD, Express and MySQL together into a single diagram, this is what i
 # Requirements
 Some basic requirements to run this file in system need to install npm package before this install nodejs, using npm install mysql and express library.
 Commands:
-sudo apt install nodejs
+code sudo apt install nodejs code
 sudo apt install nodejs npm or sudo apt install npm 
 npm init -y
 npm install express
