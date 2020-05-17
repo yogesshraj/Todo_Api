@@ -1,7 +1,6 @@
 const express = require("express");
 const mysql = require("mysql");
 const bodyParser = require( "body-parser" );
-const morgan = require("morgan");
 const app = express();
 
 app.use ( bodyParser.json() );
@@ -10,7 +9,10 @@ app.use ( bodyParser.urlencoded({ extended: true }) );
 app.use (express.static ( "public" ));
 
 //Middleware
-app.use(morgan("dev"));
+app.use((req,res,next)=>{
+    console.log("Middleware is watching");
+    next();
+});
 
 var con  = mysql.createConnection({
     host : "localhost",
